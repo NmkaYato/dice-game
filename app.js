@@ -89,7 +89,7 @@ document.querySelector(".btn-hold").addEventListener("click", function () {
       scores[activePlayer];
 
     // undsen onoo 100 hurvel hojno
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 100) {
       // togloom duuslaa
       isActiveGame = false;
       document.getElementById("name-" + activePlayer).textContent = "WINNER!!!";
